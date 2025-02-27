@@ -1,2 +1,2 @@
 # streamlit
-This repository is dedicated to Streamlit experimental code.
+This repository is dedicated to my Streamlit experimental code.
