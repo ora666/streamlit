@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.graph_objs as go
 import plotly.express as px
 
-__version__='1.0'
+__version__='1.1'
 
 excel_file = "vic/Analitika-stroski.xlsx"
 
