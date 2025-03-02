@@ -3,7 +3,8 @@ import streamlit as st
 import plotly.graph_objs as go
 import plotly.express as px
 
-# excel_file = "C:/home/alesk/Skripte/python/streamlit/vic/Analitika-stroski.xlsx"
+__version__='1.0'
+
 excel_file = "vic/Analitika-stroski.xlsx"
 
 @st.cache_data(ttl='1d')
@@ -106,5 +107,3 @@ fig.update_layout(
     yaxis_title='Cost (€)'
 )
 st.plotly_chart(fig, use_container_width=True)
-
-# st.write(df) ## for debugging only
