@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 # excel_file = "C:/home/alesk/Skripte/python/streamlit/vic/Analitika-stroski.xlsx"
-excel_file = "Analitika-stroski.xlsx"
+excel_file = "streamlit/vic/Analitika-stroski.xlsx"
 
 @st.cache_data(ttl='1d')
 def import_data():
