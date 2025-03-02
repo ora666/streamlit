@@ -24,6 +24,7 @@ def get_max_year(df):
 
 
 st.header(f'MONTHLY COSTS - VIČ ({min_year}-{max_year})')
+st.write(f'Version: {__version__}')
 
 with st.sidebar:
     years = get_unique_years(df)
