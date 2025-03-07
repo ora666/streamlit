@@ -87,7 +87,7 @@ with c1:
                 column_config = {'Year': st.column_config.NumberColumn(format="%f")},
                 hide_index=True)
 with c2:
-    # we added -Year- columns as a year converted to a string 
+    # we added -Year- column as a Year converted to a string 
     # to prevent wrong labels (eg. displawing 2022,0 instead of 2022)
     df_grouped['-Year-'] = df_grouped['Year'].astype(str)
     st.line_chart(df_grouped, x='-Year-', y='Total cost(€)')
